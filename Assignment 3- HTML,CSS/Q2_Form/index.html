@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>FORM EXAMPLE</title>
+    </head>
+    <body>
+        <div class="form-container">
+            <h1 style="text-align: center; color: rgb(5, 6, 17);">Are you the chosen one?<br> Submit the form and discover.</h1>
+            <form>
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <table>
+                        <tr>
+                            <td> Name:</td>
+                            <td><input type="text" id="fname" name="fname" placeholder="first name" required><br><br>
+                            <input type="text" id="lname" name="lname" placeholder="last name" required></td>
+                        </tr>
+                       
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" id="email" name="email" required placeholder="enter email"></td>
+                        </tr>
+                        <tr>
+                            <td>Password:</td>
+                            <td><input type="password" id="password" name="password" placeholder="enter password" required><br><br>
+                            <input type="password" id="cpassword" name="cpassword" placeholder="confirm password" required></td>
+                        </tr>
+                        <tr>
+                            <td>Mobile no:</td>
+                            <td><input type="tel" id="mobile" name="mobile" required placeholder="enter mobile no"></td>
+                        </tr>
+                        <tr>
+                            <td>Gender:</td>
+                            <td >
+                                <input type="radio" id="radio" name="radio" value="female">Female<br>
+                                <input type="radio" id="radio" name="radio" value="male">Male  <br>
+                                <input type="radio" id="radio" name="radio" value="Other">Other 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Age</td>
+                            <td><input type="number" ></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <table>
+                        <tr>
+                            <td>Birthdate:</td>
+                            <td><input type="date" id="bdate" name="bdate" required></td>
+                        </tr>
+                        <tr>
+                            <td>Favourite colour:</td>
+                            <td><input type="color" id="favColor" name="favColor"> Pick the colour</td>
+                        </tr>
+                        <tr>
+                            <td>Select Hobbies:</td>
+                            <td>
+                                <input type="checkbox" id="dancing" name="dancing">Dancing<br>
+                                <input type="checkbox" id="Drawing" name="drawing">Drawing<br>
+                                <input type="checkbox" id="Singing" name="Singing">Singing<br>
+                                <input type="checkbox" id="Reading" name="Reading">Reading
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Enter favourite icecream flavor:</td>
+                            <td>
+                                <select id="dropdown">
+                                    <option>Vanilla</option>
+                                    <option>Mango</option>
+                                    <option>CHocolate</option>
+                                    <option>Oreo</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div>
+                        <p> Write why you are the chosen one on this planet:</p>
+                        <textarea id="textarea" name="textarea" rows="8" cols="30"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        Attach your clearance certificate from the chief: &nbsp;
+                        <input type="button" id="button" name="button" value="Attach file">
+                    </div>
+                </fieldset>
+                <div id="submit-reset">
+                    <input type="submit" value="Submit" name="submit" id="submit">
+                    <input type="reset" value="Reset" name="reset" id="reset">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

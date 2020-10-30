@@ -1,0 +1,61 @@
+body,html{
+    margin: 0;
+    min-width: 290px;
+}
+
+/**************Navigation bar ************/
+
+nav{
+    display: inline-block;
+    position: fixed;
+    width: 25%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(92, 64, 28, 0.603);
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    border: 1px solid white;
+    padding: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+}
+
+
+/************** right section *********/
+.main-content{
+    position: absolute;
+    left: 25%;
+    margin: 20px;
+}
+
+.content{
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    padding: 20px;
+    margin: 30px;
+    font-size: 19px;
+}
+
+p b{
+    text-align: center;
+}

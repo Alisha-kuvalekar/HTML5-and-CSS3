@@ -1,0 +1,196 @@
+body,html{
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+/*************** Nav bar *******************/
+
+ul{
+    background-color:rgba(6,12,34,0.98);
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+    list-style-type: none;
+}
+
+li a{
+    display: block;
+    padding: 10px;
+    color: rgba(202,206,221,0.8);
+    text-decoration: none;
+    font-family: "Raleway",sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#tktbtn{
+    background-color: #f82249;
+    border:1px solid #f82249;
+    border-radius: 12px;
+    
+}
+
+a:hover{
+    color: white;
+    border-bottom: 1px solid #f82249;
+    padding-bottom: 10px;
+}
+
+#tktbtn a{
+    color: white;
+    padding: 10px;
+}
+
+#tktbtn a:hover{
+    border: none;
+    padding: none;
+}
+
+
+
+/**********head with banner image**********/
+
+.banner{
+    height: 500px;
+    position: relative;
+    background-color:  rgba(85, 86, 92, 0.945);
+    align-items: center;
+    opacity: 0.8;
+
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 40px;  
+    text-transform: uppercase;
+    
+}
+
+.title button{
+    padding: 20px;
+    font-size: large;
+    border:1px solid rgba(6,12,34,0.98);
+    border-radius: 5px;
+    background-color: rgba(6,12,34,0.98);
+    color: white;
+}
+
+.title button:hover{
+    background-color: #f82249;
+    color: white;
+    border: 1px solid #f82249;
+}
+
+/*************** speakers ********************/
+
+.stitle{
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    background-color:rgba(6, 12, 34, 0.158);
+    padding-bottom: 60px;
+}
+
+.speakers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:60px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: transparent;
+
+}
+
+.speaker{
+    background-color: #f8224931;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.speaker img{
+    width: 100%;
+    display: block;
+}
+
+.details{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.speaker a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+.speaker .fa{
+    font-size: 1.5em;
+    color: rgba(6, 12, 34, 0.842);
+}
+
+/****************** venue & schedule ********************/
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(6, 12, 34, 0.842);
+}
+
+.column{
+    background-color: transparent;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.column p:first-child{
+    font-size: 30px;
+}
+
+.column p:nth-child(2)
+{
+    font-size:20px ;
+}
+table,td{
+    border:1px solid rgba(128, 128, 128, 0.37);
+    border-collapse: collapse;
+}
+
+td{
+    padding: 15px;
+    font-size: 20px;
+}
+
+/********** footer ************/
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    background-color:  #f32c51;
+
+}
+
+footer a{
+    text-decoration: none;
+}
+

@@ -1,0 +1,47 @@
+table,td{
+    padding: 3px;
+}
+body{
+    font-size: 20px;;
+    background-image: url('back4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.form-container{
+    width: 45%;
+    padding: 15px;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(252, 252, 252, 0.87) 
+    
+}
+
+input{
+    padding: 3px;
+}
+
+fieldset > .{
+    margin: auto;
+}
+
+/**** submit and reset button styling *****/
+#submit-reset{
+    text-align: center;
+    margin-top: 15px;
+} 
+
+#submit-reset input{
+    color:black;
+    background-color: orange;
+    border: 1px solid orangered;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 20px;
+}
+
+#submit-reset input:hover{
+    color:orange;
+    background-color: black;
+    border: 1px solid black;
+}

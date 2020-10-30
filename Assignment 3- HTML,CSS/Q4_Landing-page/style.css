@@ -1,0 +1,238 @@
+body,html{
+    margin: 0 ;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(244, 243, 238);
+}
+
+/******* Navigation bar ***********/
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(138, 129, 124);
+}
+
+nav li{
+    float: left;
+}
+nav li a{
+    display: block;
+    padding: 17px;
+    font-size: 25px;
+    text-align: center;
+    background-color:transparent;
+    color: black;
+    text-decoration: none;
+
+}
+
+#donatebtn{
+    padding: 15px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    float: right;
+    font-size: larger;
+    background-color: white;
+    color ; black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+
+  /********  Header **********/
+
+.container{
+    background-image: url('image1.jpg');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+
+.ptext{
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.border{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 25px;
+    font-size: 30px;
+}
+
+/*********  Main section under header   ***********/
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 400px;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+.column1{
+    background-color: #bcb8b1;
+    text-align: center;
+    padding: 30px;
+    font-size: large;
+}
+
+.fas{
+    font-size: 4em;
+}
+
+.column1:hover{
+    border: 1.5px solid black;
+}
+
+/***** donors **********/
+.donors{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: transparent;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 40px;
+}
+
+.person{
+    width: 300px;
+    height: 350px;
+    justify-self: center;
+    background-color; transparent;
+    text-align: center;
+    padding: 0;
+    font-size: larger;
+    font-weight: 400;
+    color: #463f3a;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .2s ease-in-out;
+}
+
+.person:hover{
+    transform: scale(1.1);
+}
+
+.person p{
+    text-align: left;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    width: 300px;
+    height: 270px;
+}
+
+.donor-head{
+    padding: 25px;
+    background-color:rgba(224, 175, 160, 0.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+/********* form and address*************/
+.row2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(224, 175, 160, 0.5);
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.column2{
+  padding: 20px;
+  color: black;
+  font-size: 25px;
+  background-color: white;;
+  
+}
+
+.column2 span{
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+table,td{
+    padding: 10px;
+}
+
+#formButtons{
+    text-align: center;
+    padding: 10px;
+}
+
+#formButtons input{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(138, 129, 124);
+    font-size: large;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+/************ FOOTER ***************/
+
+.foot{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.foot a{
+    font-size: 2em;
+    color: black;
+    border: 1px solid #e0afa0;
+    border-radius: 50%;
+    margin: 10px;  
+}
+
+.container1{
+    height: 600px;
+    background-image: url('image3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foot a:hover{
+    border: 1px solid #e0afa0;
+    color:  #e0afa0;
+    background-color: black;
+}
